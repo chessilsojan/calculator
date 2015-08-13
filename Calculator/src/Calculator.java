@@ -1,20 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+import java.util.Scanner;
+public class Calculator
+{
 
-/**
- *
- * @author USER
- */
-public class Calculator {
-//test Program
-    /**
-     * @param args the command line arguments
-     */
+    static int op = 0;
+    static Scanner scan=new Scanner(System.in);
+    static double num1;
+    static double num2;
+    static double ans;
+          
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    do{
+    System.out.println("1 . Addition 2.Substraction 3.Multiplication 4.Division");
+    op = scan.nextInt();
+    }  while(op<1 && op>4);
     
+    
+  
+         }
 }

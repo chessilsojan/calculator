@@ -3,5 +3,6 @@ public class Calc
 public static void main (String args[])
 {
 System.out.println("Welcome to New Zealand");
+System.out.println("Nice to meet you");
 }
 }
